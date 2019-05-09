@@ -1,0 +1,1603 @@
+@media (min-width: 2560px) {
+
+	body {
+		/*background-image: url("images_final/background_cupcakes_two.png");*/
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color:  ivory;		
+	}
+
+.logo {
+	width: 20% !important;
+}
+
+.wrapper {
+	position: relative;
+	top: 200px;
+}
+
+
+.main_content {
+	position: relative;
+	top: 200px;
+}
+
+/*begin navbar*/
+.navbar {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.nav-item {
+	padding: 2px;
+	margin-right: 25px;
+}
+
+.nav-item a {
+	font-size: 2.7rem !important;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+	/*background-color: goldenrod;*/
+	padding: 5px 5px;
+} 
+
+ul {
+	display: flex;
+		
+}
+
+li {
+	list-style: none;
+}
+/*end navbar*/
+
+#telephone {
+
+	transition: transform .2s; /* Animation */
+	background-color: white;
+	position: relative;
+	top: 0px;
+	left: 30px;
+	}
+	
+#telephone:hover {
+		transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	
+	}
+/*end navbar*/
+
+.cover_image {
+	position: relative !important;
+	top: -410px !important;
+}
+
+.logo {
+
+	max-width: 25% !important;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 100px !important;
+	left: 125px !important;
+	z-index: 1;
+	
+}
+
+.wrapper_for_customize {
+	position: relative !important;
+	top: -125px !important;
+}
+
+.customize {
+	
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	position: relative;
+	top: 175px;
+	left: 50px;
+	
+}	
+
+.customize h1 {
+	font-size: 6rem !important;
+}
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+
+.specific {
+	display: none;	
+	font-family: 'Ledger', serif;
+	font-size: 5rem;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	left: 
+
+}
+
+a {
+	color: rgb(99, 69, 182);
+}
+
+.container {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 2000px !important;
+	position: relative !important;
+	left: 200px !important;
+	top: -475px !important;
+    
+}
+
+.card {
+	margin-left: 100px !important;
+	padding-top: 20px;
+	position: relative;
+	top: 300px;
+	
+}
+
+/*styling individual cards*/
+.card-title {
+	
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+}
+
+#list-group-israel {
+	margin-top: 50px !important;
+}
+
+#white-shabbos {
+	position: relative;
+	top: -110px;
+}
+
+#anniversary {
+	position: relative;
+	top: -50px;
+}
+
+#israel {
+	position: relative;
+	top: -50px !important;
+}
+		
+	
+.additional_info  {
+	max-width: 75% !important;
+	position: relative;
+	top: 0px !important;
+	left: 350px !important;
+	font-family: 'Ledger', serif;
+	font-size: 2.5rem !important;
+	background-color: white;
+}
+	
+	
+.return_to_top {
+	display: none;
+	text-align: center;
+	position: relative;
+	top: -400px;
+			
+			
+}
+		
+.line7 {
+	display: none;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 500px;
+}
+		
+.footer {
+	text-align: center;
+	position: relative;
+	top: 550px !important;
+	background-color: rgb(151, 151, 231);
+	padding: 20px;
+	color: white;
+		
+}
+
+.footer1 {
+	font-size: 2rem !important;
+}
+
+.footer2 {
+	font-size: 2rem !important;
+}
+
+}
+
+@media all and (min-width: 1224px) and (max-width:1599px) {
+
+	body {
+		/*background-image: url("images_final/background_cupcakes_two.png");*/
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color:  ivory;
+		
+	}
+
+/*.wrapper {
+	position: relative;
+	top: -250px;
+}*/
+
+.logo {	
+	width: 25%;
+	height: auto;
+	position: absolute;
+	top: 90px !important;
+	left: 475px !important;
+	z-index: 1;
+	
+}
+
+.cover_image {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	top: -175px !important;
+		
+}
+
+.header {
+	position: relative;
+	top: -65px;
+}
+
+.wrapper {
+	position: relative !important;
+	top: -100px !important;
+
+}
+
+.wrapper_for_customize  {
+	margin-left: 100px !important;
+}
+
+.customize h1 {
+	
+	text-align: center;
+	font-size: 3.5rem;
+	position: relative;
+	top: 20px;
+	left: 0px;
+	font-family: 'Parisienne', cursive;	
+}
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 0px !important;
+}
+
+.specific h1{
+		
+	font-family: 'Ledger', serif;
+	font-size: 2.7rem;
+	font-style: italic;
+	position: relative;;
+	top: 50px;
+	left: 100px !important;
+
+}
+
+.card {
+	margin-left: 40px;
+	padding-top: 20px;
+	position: relative;
+	top: 300px;
+	
+}
+
+.container {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly !important;
+	max-width: 1600px !important;
+	margin-left: 25px;
+	position: relative;
+	top: -350px !important;
+	
+    
+}
+
+/*styling individual cards*/
+.card-title {
+	
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+}
+
+.list-group {
+	margin-top: 20px;
+}
+
+#list-group-israel {
+	margin-top: 60px !important;
+}
+
+#white-shabbos {
+	position: relative;
+	top: -110px;
+}
+
+#anniversary {
+	position: relative;
+	top: -50px;
+}
+
+#israel {
+	position: relative;
+	top: 0px !important;
+}
+
+
+	
+/*begin navbar*/
+	.navbar {
+		width: 100%;
+		margin: 0 auto;
+	
+	}
+	
+	.nav-item {
+		padding: 2px;
+		margin-right: 25px;
+				
+	}
+
+	.nav-item a {
+		font-size: 1.5em !important;	
+	}
+	
+	.navbar-nav {
+		margin: 0 auto;
+		/*background-color: goldenrod;*/
+		padding: 5px 5px;
+	} 
+	
+	ul {
+		display: flex;		
+	}
+	
+	li {
+		list-style: none;
+	}
+	
+	
+	#telephone {
+	
+		transition: transform .2s; /* Animation */
+		background-color: white;
+		position: relative;
+		top: 0px;
+		left: 30px;
+		}
+		
+	#telephone:hover {
+			transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+		
+		}
+	/*end navbar*/
+	
+	
+.additional_info  {
+	max-width: 100%;
+	position: relative;
+	top: 0px;
+	left: 20px;
+	font-family: 'Ledger', serif;
+	background-color: white;
+}
+	
+	
+.return_to_top {
+	display: none;
+	text-align: center;
+	position: relative;
+	top: -400px;
+				
+}
+		
+.line7 {
+	display: none;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 500px;
+}
+		
+.footer {
+	text-align: center;
+	position: relative;
+	top: 200px !important;
+	background-color: rgb(151, 151, 231);
+	opacity: .9;
+	padding: 8px;
+	color: white;
+	
+}
+}
+
+@media all and (min-width:1600px) and (max-width:1919px) {
+
+body {
+	background-image: url("images_final/background_cupcakes_two.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color:  ivory;		
+}
+
+.nav-item {
+	padding: 2px;
+	margin-right: 25px;				
+}
+
+.nav-item a {
+	font-size: 2em !important;	
+}
+
+.nav-item a: hover {
+	text: yellow;
+}
+
+.cover_image {
+	display: none;
+}
+
+.logo {
+	width: 18% !important;
+	position: relative;
+	left: 650px !important;
+}
+
+.wrapper {
+	position: relative !important;
+	top: -75px !important;
+}
+
+.wrapper_for_customize {
+	position: relative;
+	top: 300px !important;
+}
+
+.customize h1 {
+	font-size: 4rem;
+}
+
+.specific {
+	position: relative;
+	left: 275px;
+}
+
+.container {
+	margin-top: 400px !important;
+	padding: 0 auto !important;
+	max-width: 1500px !important;
+}
+
+/*styling bootstrap cards*/
+.list-group {
+	margin-top: 50px;
+}
+
+#israel {
+	margin-top: 60px;
+}
+
+/*end styling bootstrap cards*/
+}
+
+/*Logical breaks are at intervals of 320px (320, 640, 960, 1280, 1600, 1920).*/
+
+@media all and (min-width: 1920px) and (max-width: 2559px) {
+
+	body {
+		/*background-image: url("images_final/background_cupcakes_two.png");
+		background-repeat: no-repeat;
+		background-size: contain;*/
+		background-color:  ivory;
+		
+	}
+
+.wrapper {
+	position: relative;
+	top: -200px;
+}
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+
+.customize {
+	
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	position: relative;
+	top: 175px;
+	left: 245px;
+	
+}
+
+.customize h1 {
+	font-size: 5rem !important;
+}
+
+.specific {
+	
+	font-family: 'Ledger', serif;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	left: 150px;
+
+}
+
+.wrapper_for_customize {
+	position: relative !important;
+	top: 0px !important;
+}
+
+.main_content {
+	position: relative;
+	top: 200px;
+}
+
+.container {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 2000px;
+	position: relative;
+	left: 100px !important;
+	top: -300px !important;
+    
+}
+
+.cover_image {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	top: 0px;
+	left: 250px;
+}
+
+/*start header*/ 
+.logo {
+	
+	max-width: 20% !important;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 150px !important;
+	left: 240px !important;
+	z-index: 1;
+	opacity: .9;
+	
+}
+
+	/*begin navbar*/
+	.navbar {
+		max-width: 100%;
+		margin: 0 auto;
+		position: relative;
+		left: 250px;
+		top: 75px;
+	
+	}
+	
+	.nav-item {
+		padding: 2px;
+		margin-right: 25px;
+	}
+
+	.nav-item a {
+		font-size: 2.3em !important;
+	}
+	
+	.navbar-nav {
+		margin: 0 auto;
+		/*background-color: goldenrod;*/
+		padding: 5px 5px;
+	} 
+	
+	ul {
+		display: flex;
+			
+	}
+	
+	li {
+		list-style: none;
+	}
+	/*end navbar*/
+	
+	#telephone {
+	
+		transition: transform .2s; /* Animation */
+		background-color: white;
+		position: relative;
+		top: 0px;
+		left: 30px;
+		}
+		
+	#telephone:hover {
+			transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+		
+		}
+	/*end navbar*/
+
+
+a {
+	color: rgb(99, 69, 182);
+}
+
+.card {
+	margin-left: 60px;
+	padding-top: 20px;
+	position: relative;
+	top: 300px;
+	
+}
+
+.card-title {
+	
+}
+
+/*styling individual cards*/
+.card-title {
+	
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+}
+
+#list-group-israel {
+	margin-top: 60px;
+}
+
+#white-shabbos {
+	position: relative;
+	top: -110px;
+}
+
+#anniversary {
+	position: relative;
+	top: -50px;
+}
+
+#israel {
+	position: relative; 
+	top: -40px !important;
+}
+
+
+.additional_info  {
+	width: 75%;
+	position: relative;
+	top: 90px;
+	left: 375px;
+	font-family: 'Ledger', serif;
+	font-size: 1.3rem;
+	background-color: white;
+	padding: 25px !important;
+}
+	
+	
+.return_to_top {
+	display: none;
+	text-align: center;
+	position: relative;
+	top: -400px;
+			
+			
+}
+		
+.line7 {
+	display: none;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 500px;
+}
+		
+.footer {
+	text-align: center;
+	position: relative;
+	top: 300px !important;
+	left: 250px;
+	background-color: rgb(151, 151, 231);
+	padding: 20px;
+	color: white
+	
+}
+	
+}
+
+
+@media all and (max-width: 320px) {
+    
+    body {
+        background-color:ivory;
+	}
+	
+.logo {
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+		
+}
+
+.cover_image {
+	max-width: 100%;
+	height: auto;
+}
+
+	.customize {
+		
+		/*font-family: 'Parisienne', cursive;*/
+		text-align: center;
+		position: relative;
+		top: 40px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}	
+	
+	.customize h1 {
+		font-family: 'Ledger', serif;
+		font-size: 1.1rem;
+		font-style: italic;
+		line-height:1.6;
+		
+	}
+
+	.line {
+		
+		max-width: 50%;
+		margin: 0 auto;
+		position: relative;
+		top: 190px;
+	}
+	
+	.specific {
+		display: none;
+			
+	}
+
+	.container {
+	    display: flex !important;
+		flex-direction: row !important;
+		flex-wrap: wrap !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		margin-top: 75px !important;
+		position: relative;
+		left: 30px !important;
+			
+	}
+
+	.card {
+		margin-top: 50px;
+		
+	}
+
+	.card-title {
+	
+		font-family: 'Parisienne', cursive;
+		font-size: 2.5rem;
+	
+	}
+	
+	.card-text {
+		font-family: 'Ledger', serif;
+	
+	}
+	
+	.list-group-item {
+		font-family: 'Ledger', serif;
+	}
+
+	#list-group-israel {
+		position: relative;
+		top: -60px;
+	}
+
+	#white-shabbos {
+		margin-top: 50px;
+	}
+
+	#israel {
+		margin-top: 100px !important;
+	}
+	
+.additional_info {
+	font-family: 'Ledger', serif;
+	font-size: 1rem !important;
+	padding-top: 25px !important;
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	position: relative;
+	top: -100px;
+	background-color: white;
+}
+
+.return_to_top {
+	display: none;
+			
+}
+		
+.line7 {
+	display: none;
+	}
+		
+footer {
+	text-align: center;
+	position: relative;
+	top: 100px;
+	background-color: rgb(151, 151, 231);
+	opacity: .7;	
+	color: white
+	
+}
+}
+
+
+    @media all and (min-width: 360px) and (max-width: 374px) {   
+
+		body {
+			background-color:ivory;
+		}
+			
+	.cover_image {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.customize {
+		font-family: 'Ledger', serif;
+		/*font-family: 'Parisienne', cursive;*/
+		
+		text-align: center;
+		position: relative;
+		top: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}	
+
+	.customize h1 {
+		font-size: 1.5rem;
+		font-style: italic;
+		line-height:1.6;
+
+	}
+	
+	.line {
+		max-width: 50%;
+		margin: 0 auto;
+		position: relative;
+		top: 190px;
+	}
+	
+	.specific {
+		display: none;
+			
+	}
+
+	/*contains Bootstrap cards for pricing*/
+	.container {
+	    display: flex !important;
+		flex-direction: row !important;
+		flex-wrap: wrap !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		margin-top: 75px !important;
+		position: relative;
+		left: 30px !important;
+			
+	}
+
+.card {
+	margin-top: 20px;
+}
+
+		.card-title {
+		
+			font-family: 'Parisienne', cursive;
+			font-size: 2.5rem;
+		
+		}
+		
+		.card-text {
+			font-family: 'Ledger', serif;
+		
+		}
+		
+		.list-group-item {
+			font-family: 'Ledger', serif;
+		
+		}
+
+		#list-group-israel {
+			position: relative;
+			top: -60px;
+		}
+
+		#white-shabbos {
+			margin-top: 50px;
+		}
+	
+		#israel {
+			margin-top: 100px !important;
+		}
+	
+				
+		.logo {
+			max-width: 100%;
+			width: 100%;
+			height: auto;
+		}
+
+		.additional_info {
+			font-family: 'Ledger', serif;
+			font-size: 1rem !important;
+			padding: 10px !important;
+			margin-top: 0px !important;
+			position: relative;
+			left: -25px;
+			background-color: white;
+		}
+
+		.return_to_top {
+			display: none;
+		}
+				
+		.line7 {
+			display: none;
+		}
+				
+		.footer {
+			text-align: center;
+			position: relative;
+			top: 100px;
+			background-color: rgb(151, 151, 231);
+			opacity: .7;
+			color: white;
+			
+		}
+		
+	}
+
+
+@media all and (min-width: 375px) and (max-width: 413px) {   
+
+body {
+    background-color:ivory;
+}
+
+.cover_image {
+	max-width: 100%;
+	height: auto;
+}
+
+.customize {	
+	/*font-family: 'Parisienne', cursive;*/	
+	text-align: center;
+	position: relative;
+	top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}	
+
+.customize h1 {
+	font-family: 'Ledger', serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	line-height:1.6;
+
+}
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+
+.specific {
+	display: none;
+	
+}
+
+.logo {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	
+}
+
+.container {
+	display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: wrap !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-top: 75px !important;
+	position: relative;
+	left: 30px !important;
+		
+}
+
+.card {
+	margin-left: 50px;
+	margin-top: 18px;
+}
+
+.card-title {
+
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+
+}
+
+#list-group-israel {
+	position: relative;
+	top: -60px;
+}
+
+#white-shabbos {
+	margin-top: 50px;
+}
+
+#israel {
+	margin-top: 100px !important;
+}
+
+.additional_info  {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-family: 'Ledger', serif;
+	font-size: 1rem !important;
+	position: relative;
+	left: -25px;
+	top: -100px !important;
+	background-color: white;
+}
+
+.return_to_top {
+	display: none;
+			
+}
+		
+.line7 {
+	display: none;
+	}
+		
+.footer {
+	text-align: center;
+	position: relative;
+	top: 100px;
+	background-color: rgb(151, 151, 231);
+	opacity: .7;	
+	color: white;
+	
+}
+}
+
+@media all and (min-width:414px) and (max-width: 767px) { 
+
+
+body {
+	background-color:ivory;
+}
+	
+.cover_image {
+	max-width: 100%;
+	height: auto;
+}
+
+.customize {
+	font-family: 'Ledger', serif;
+	/*font-family: 'Parisienne', cursive;*/
+	font-size: 1rem;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}	
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+
+.specific {
+	display: none;
+
+}
+
+.container {
+	display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: wrap !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-top: 75px !important;
+	position: relative;
+	left: 30px !important;
+		
+}
+
+.card {
+	margin-left: 50px;
+	
+}
+
+.logo {
+	max-width: 100%;
+	width: 100%;
+    height: auto;
+}      
+
+.container {
+	position: relative;
+	top: 25px;
+}
+
+.card {
+	margin-left: 50px;
+	margin-top: 18px;
+}
+
+.card-title {
+
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+
+}
+
+#list-group-israel {
+	position: relative;
+	top: -60px;
+}
+
+#white-shabbos {
+	margin-top: 50px;
+}
+
+#israel {
+	margin-top: 100px !important;
+}
+
+.additional_info  {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 20px;
+	font-family: 'Ledger', serif;
+	font-size: 1.3rem !important;
+	position: relative;
+	left: -25px;
+	top: -100px !important;
+}
+
+.return_to_top {
+	display: none;
+			
+}
+		
+.line7 {
+	display: none;
+	}
+		
+.footer {
+	text-align: center;
+	position: relative;
+	top: 100px;
+	background-color: rgb(151, 151, 231);
+	opacity: .7;	
+	color: white;
+	
+}
+        
+}
+
+
+/*for ipad*/
+    @media all and (min-width:768px) and (max-width: 1023px) { 
+
+		/*start header*/ 
+body {
+	background-color: ivory;
+}
+
+            
+.cover_image {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	top: -140px;
+}
+
+.logo {
+	max-width: 30%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 32px;
+	left: 250px;
+	z-index: 1;
+}
+
+		
+.customize {
+			font-family: 'Parisienne', cursive;
+			font-size: 2.3rem;
+			text-align: center;
+			position: relative;
+			top: -75px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}	
+		
+		.line {
+			max-width: 50%;
+			margin: 0 auto;
+			position: relative;
+			top: 190px;
+		}
+		
+		.specific {
+			display: none;
+			
+		
+		}
+    
+    /*begin navbar*/
+    .navbar {
+        width: 100% /*73.5%*/;
+        margin: 0 auto;
+    }
+    
+    .nav-item {
+        padding: 2px;
+        padding-left: 5px;
+            
+    }
+    
+    .navbar-nav {
+        margin: 0 auto;
+    } 
+
+    /*end navbar*/
+   
+.container {
+	position: relative;
+	top: -170px !important;
+	left: 55px;
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 768px !important;
+		
+}
+
+.card {
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.card-title {
+
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+
+}
+
+.additional_info  {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 0px !important;
+	padding: 20px;
+	font-family: 'Ledger', serif;
+	font-size: 1.5rem;
+	background-color: white;
+}
+
+.line7 {
+	display: none;
+}
+	
+
+.return_to_top {
+    text-align: center;
+	margin-top: 100px;
+	position: relative; 
+	top: 25px;
+    
+}
+
+.footer {
+	text-align: center;
+	position: relative;
+	top: 50px;
+	background-color: rgb(151, 151, 231);
+	opacity: .7;	
+	color: white;
+	
+}
+
+}
+
+
+/*from pricelist   for ipad pro*/
+@media (min-width: 1024px) { 
+
+	/*start header*/ 
+body {
+background-color: ivory;
+}
+
+		
+.cover_image {
+max-width: 100%;
+height: auto;
+position: relative;
+top: -190px;
+}
+
+.logo {
+max-width: 30%;
+width: 25%;
+height: auto;
+position: relative;
+top: 30px;
+left: 350px;
+z-index: 1;
+}
+
+.wrapper {
+	position: relative;
+	top: -35px;
+}
+
+.customize {
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	position: relative;
+	top: -75px;
+	padding-left: 10px;
+	padding-right: 10px;
+}	
+
+.customize h1 {
+	font-size: 3rem !important;
+}
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative !important;
+	top: -50px !important;
+}
+}
+
+.specific h1{
+		
+	font-family: 'Ledger', serif;
+	font-size: 2rem !important;
+	font-style: italic;
+	position: relative;;
+	top: -25px;
+	left: 75px;
+
+}
+
+.container {
+	margin-top: 100px;
+
+}
+/*begin navbar*/
+.navbar {
+	width: 100% /*73.5%*/;
+	margin: 0 auto;
+}
+
+.navbar li {
+	padding-right: 15px;
+	padding-top: 15px;
+	
+}
+
+.nav-item {
+	padding-left: 13px;
+	padding-right: 5px;
+}
+
+.nav-item a {
+	font-size: 1.3rem;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+} 
+
+/*end navbar*/
+
+.container {
+position: relative;
+top: -50px;
+left: 55px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+max-width: 75%;
+	
+}
+
+.card {
+margin-left: 40px;
+margin-top: 40px;
+}
+
+.card-title {
+
+font-family: 'Parisienne', cursive;
+font-size: 2.5rem;
+text-align: center;
+
+}
+
+.card-text {
+font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+font-family: 'Ledger', serif;
+
+}
+
+#israel {
+	position: relative;
+	top: -100px;
+}
+
+#white-shabbos {
+	position: relative;
+	top: -50px;
+}
+
+.additional_info  {
+max-width: 100%;
+margin: 0 auto;
+margin-top: 100px;
+margin-left: 75px;
+padding: 20px;
+font-family: 'Ledger', serif;
+font-size: 1.5rem;
+background-color: white;
+
+}
+
+.line7 {
+display: none;
+}
+
+
+.return_to_top {
+text-align: center;
+margin-top: 100px;
+position: relative; 
+top: 25px;
+
+}
+
+.footer {
+text-align: center;
+position: relative;
+top: 50px;
+background-color: rgb(151, 151, 231);
+opacity: .7;	
+color: white
+
+}
+
+}
+/*end from price list*/
+
+
+
+
+
+
+
+
+
