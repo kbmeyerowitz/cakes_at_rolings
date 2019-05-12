@@ -1,0 +1,221 @@
+
+
+
+
+.home-container {
+   max-width: 1600px /*(I would round up to nearest 100px)*/;
+   width: 100%;
+   padding: 0px;
+   margin: 0px auto;
+} 
+
+/*styling logo*/
+.logo_large {
+    max-width: 100%;
+    width: 60%;
+    opacity: .9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:1224px) {
+   .logo_large {
+       position: relative;
+       top: 50px;
+   }
+}  
+
+@media (max-width:1024px) {
+    .logo_large {
+        position: relative;
+        top: 50px;
+    } 
+ }    
+
+ @media (max-width:768px) {
+    .logo_large {
+        position: relative;
+        top: 35px;
+    } 
+ }
+
+@media (max-width:414px) {
+    .logo_large {
+        display: none;
+    }
+}
+
+    
+@media (max-width:411px) {
+    .logo_large {
+        display: none;
+    } 
+}
+    
+@media (max-width:375px) {
+    .logo_large {
+        display: none;
+    }
+}
+   
+@media (max-width:360px) {
+    .logo_large {
+        display: none;
+    }       
+}  
+    
+@media (max-width:320px) {
+    .logo_large {
+        display: none;
+    }
+}    
+/*end styling logo*/
+/*start styling mobile logo*/
+
+.logo_mobile {
+    display: none;
+}
+
+@media (max-width:1224px) {
+    .logo_mobile {
+        display: none;
+    } 
+}  
+
+@media (max-width:1024px) {
+    .logo_mobile {
+        display: none;
+    } 
+}    
+
+ @media (max-width:768px) {
+    .logo_mobile {
+        display: none;
+    }     
+ } 
+
+ /*MESSED UP MEDIA QUERY*/
+ @media (max-width:414px) {
+    .logo_mobile {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        
+    }    
+}  
+
+@media (max-width:411px) {
+    .logo_mobile {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }     
+ }    
+
+ @media (max-width:375px) {
+    .logo_mobile {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+}  
+
+ @media (max-width:360px) {
+    .logo_mobile {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+}  
+
+@media (max-width:320px) {
+    .logo_mobile {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+} 
+
+/*styling images*/
+.cover_image  {
+    max-width: 100%;
+    width: 100%; 
+    position: relative;
+    top: -233px;
+    z-index: -1000;   
+}
+
+@media (max-width:1224px) {
+    .cover_image {
+        position: relative;
+        top: -185px;
+    }    
+}  
+
+@media (max-width:1024px) {
+    .cover_image {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        top: -150px;
+    }     
+ }    
+
+ @media (max-width:768px) {
+    .cover_image {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        top: -115px;
+    }     
+} 
+
+/*NO IDEA WHY THIS IS MESSED UP AND CAN'T MAKE CHANGES TO THIS DEVICE SIZE!*/
+@media (max-width:414px) {
+    .cover_image {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        top: 100px;
+    }      
+}  
+
+@media (max-width:411px) {
+    .cover_image {        
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }          
+}    
+
+@media (max-width:375px) {
+    .cover_image {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }    
+} 
+
+@media (max-width:360px) {
+    .cover_image {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        z-index: 1;
+    }   
+}  
+
+@media (max-width:320px) {
+    .cover_image {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        z-index: 1;        
+    }         
+} 
+
+
+
