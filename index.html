@@ -3,20 +3,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Cakes at Rolings</title>
-
+	<!-- Indented to make it cleaner and easier to read -->
+	<meta charset="UTF-8">
+	<title>Cakes at Rolings</title>
 	<meta name="author" content="Elisheva Meyerowitz">
-  	<meta name="description" content="">
-  
+	<meta name="description" content="">
+	<!-- This is the tag that allows for viewport to be responsive -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--do I keep this link to bootstrap or use the ones below from the class?-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	
 	
-
+	<!-- These google fonts are fine as it is, but you can condense them into one link if you wanted to. example: 	<link href='http://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Petit+Formal+Script|Satisfy|Parisienne|Ledger' rel='stylesheet' type='text/css'> Just separate the font names with '|'
+ -->
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Calligraffitti|Charm|Courgette|Dancing+Script|Petit+Formal+Script|Satisfy" rel="stylesheet">
@@ -27,13 +27,15 @@
 
 
 <!-- these are library file of css-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<!-- this is library file of Jquery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!--this is library file of javascript-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<!-- this css used for body-->
+	<!-- Personal Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<!-- Bootstrap 4 is the latest. So keep this one. But you also have to add the JS scripts for popper, jquery and for bootstrap to make it work. This is the bootstrap stylesheet-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- this is the import file for Jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- this is import file for Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
 <!-- EXPERIMENT starts JS for search box-->
@@ -43,6 +45,7 @@
       //Replace sample domain name below with your own domain name.
       var site = "cakes-by-tehila.kathleenmeyerowitz.com/";
       //Get the text that the user typed into the textbox.
+			// Best practice in JS is to camelCase all your variables. lookfor === lookFor. Also please look into difference between using var, let and const. I think you want to use let here and not var...although it's acceptable, it might produce some unwanted results. 
       var lookfor = document.getElementById("txtlookfor").value;
       //If the box wasn't empty do the search. 
       if (lookfor.length > 0) {
@@ -63,6 +66,7 @@
 
 
 <style>
+	/* best practice is to put this in another file and import it in so that the html code is not a big file. Smaller html file with imported CSS file is easier to work with and better practice.  */
 
 
 @media (min-width: 2560px) {
@@ -409,7 +413,7 @@
 	}
 	}
 	
-	
+	/* best practice is to only use one or the other...again this can be done but you would have to write a lot more code so you can have control over all your media queries. Just writing a default style for a selector and let it cascade down until you get to a query where you want to make a change is better practice.  */
 	@media all and (min-width: 1920px) and (max-width: 2559px) {
 	
 		body {
@@ -438,6 +442,7 @@
 			margin: 0 auto;
 			
 	} 
+	/* If you find yourself using the important keyword a lot, I would ask yourself if you really want to be using the CSS framework you are importing in is something you really want to use. I would write your own custom stuff if you are trying to override bootstrap all the time. */
 	
 	.navbar li {
 			padding-right: 25px !important;			
@@ -454,6 +459,7 @@
 	/*end navbar*/
 
 	.logo {
+		/* I would try to get away from hard-coding positions in. If you could, I would utilize flexbox to get away from all these display: block and inline-block props.  */
 		position: relative;
 		top: 100px;
 		left: 800px;
@@ -556,6 +562,7 @@
 	height: 1000px !important;
 	}
 	
+	/* An area where flexbox would probably take the bulk of this code away. I would super look into it and it will make your site look a whole lot better than it does! And easier to maintain . . . */
 	#sunflowers_slide {
 		 max-width: 40%;
 		 margin: 0 auto; 
@@ -1071,7 +1078,14 @@ header {
 	}
 
 
+	/* Let's get these media queries in order and get rid of some of them. You should need at most three or four...a default (desktop or mobile whichever you decide to go with as your "first"). Tablet size....and then mobile or desktop (whichever you didn't use previously). If you list mobile as your default, you are going into a mobile first mentality and will need to adjust your code to fit that mentality. Your media queries will have min widths that will be good until the next min width it encounters, where that query will override the previously set CSS. 
 	
+	If you go desktop first, you will use max-widths for all your queries. No need to have min and max widths on your queries. Any code that you don't touch or doesn't need to be restyled will then be able to cascade down and still be good in the next media query...
+
+	Right now your site fits in the parameters of being adaptive....what you need to do is to make your site responsive. Look up those terms and the differences and come ask questions if you don't quite get the difference. Everyone is shifting away from being adaptive to being responsive and so it would be good to go in that direction as well for yourself. 
+	
+	
+	*/
 	@media all and (max-width: 320px) {
 	
 	body {
@@ -3347,7 +3361,7 @@ header {
 		
 </head>
 <body>
-
+<!-- make sure that your opening and closing tags are in alignment (the left carats match up with the left carats). It will make your code more readable... and make errors more noticeable. -->
 	<nav class="navbar navbar-expand-xl navbar-light bg-primary"> 
     <div class="container-fluid"> 
         <button class="navbar-toggler hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"> ☰ 
@@ -3401,15 +3415,17 @@ header {
 				</p>
 			</div>-->
 	
-<div class="wrapper_for_all_content">
+<!-- The fact I am not able to minimize the div in this next line tells me that you have a closing div tag missing somewhere. You might download an extension called Prettier to help you format your pages. It'll look out for errors for you too.  -->
 
+<div class="wrapper_for_all_content">
+<!-- Is this a child to wrapper_for_all_content? Should be indented if that's the case. Will make your code more readable.  -->
 <header>
 		<div class="header">
 			<img class="logo" src="images_final/header_logo2_large.png">
 			<img class="logo_mobile" src="images_final/header_logo2_mobile.png">						
 		</div>
 </header>
-				
+				<!-- When you minimize this you can see your comment about the ending of the wrapper for all content on what's supposed to be the closing div for the main content. My guess is that your missing div tag is here :)  -->
 <div class="main_content">
 
 				<img class="cover_image" src="images_final/background_cupcakes_two-min.png" alt="cupcakes">
