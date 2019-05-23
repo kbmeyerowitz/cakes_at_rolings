@@ -3,576 +3,215 @@
 
 /*START HERE TO COVER UP PURPLE IN HEADER AND TO MOVE COVER IMAGE HIGHER UP!*/
 /* should be starting at my screen size of 1920 px  @media (min-width: 1920px) {*/
-body {
-    max-width: 2000px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    background-color: rgb(250, 250, 244);
-}
-
-.home-container {
-    max-width: 2000px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px auto;
-}
-    
-.entire_document {
-    position: relative;
-    top: 75px;
-}
-
-/*begin navbar*/
-.navbar {
-    width: 1900px;
-    margin: 0 auto;
-    position: relative;
-    right: 225px;
-}
-
-.navbar-brand {
-    font-size: 2rem;
-}
-    
-.nav-item {
-    padding: 2px;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 1.8rem !important;
-}    
-        
-.navbar li {
-    padding-right: 25px;
-}
-    
-    /*end navbar*/
- 
-.cover_image {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: -75px;       
-        
-}
-    
-.logo_large {
-    max-width: 100%;
-    width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 275px;
-    opacity: .8;
-                
-}
-
-.logo_mobile {
-    display: none;
-}
-
-.main_container {
-    position: relative !important;
-    top: 575px !important;
-}
-
-/*begin styling of opening tagline*/
-
-/*.main_tagline {
-    text-align: center;
-    margin-top: 50px;
-}*/
-
-.main_tagline   {
-    margin: 0 auto;  
-    position: relative;
-    top: -125px;
-        
-}
-
-.see_a_design {
-    font-family: 'Satisfy', cursive;
-    
-}
-
-.see_a_design h1 {
-    font-size: 4rem !important;
-
-}
-
-.see_a_design_line {
-    max-width: 50%;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-
-.each_cake {
-    font-family: 'Ledger', serif;
-    margin-top: 25px;
-}
-
-.each_cake h1 {
-    font-size: 2rem !important;
-}
-
-.click_here {
-    font-family: 'Ledger', serif;
-    margin-top: 25px;
-}
-
-.click_here h1 {
-    font-size: 1.5rem !important;
-
-}
-
-
-/*.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 100%;
-    
-}*/
-
-
-.row {
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-.col-sm-3  {
-   position: relative;
-   left: 50px !important;
-         
-}
-
-.col-sm-4 {
-    position: relative;
-    left: 100px;
-}
-
-.category {
-    text-align: center;
-    padding-top: 75px;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 30px;
-}
-
-.category h1 {
-    font-size: 3.5rem;
-    text-shadow: 1px 1px 2px grey;
-}
-
-#any {
-    margin-top: 60px;
-}
-
-#school {
-    margin-top: 60px;
-}
-
-#cupcakes {
-    margin-top: 60px;
-}
-
-#birthdays {
-    margin-top: 60px;
-}
-
-#bar {
-    margin-top: 60px;
-}
-
-#weddings {
-    margin-top: 60px;
-}
-
-.card {
-    width: 18rem;
-    margin-top: 25px;
-    display: inline-block;
-}
-
-/*styling individual cards*/
-.card-title  h5{
-    font-family: 'Ledger', serif;
-
-}
-
-.card-body {
-    font-family: 'Ledger', serif;
-    text-align: center;
-    font-style: italic;
-
-}
-/*end of styling individual cards*/
-
-
-.card-img-top {
-    
-}
-
-
-
-/*styling individual images*/
-
-#wedding {
-    /*margin-top: 50px;*/
-}
-
-#sunny_cupcakes {
-    border-radius: 50%;
-}
-
-#plated_cupcakes {
-    border-radius: 50%;
-}
-
-#multi_cupcakes {
-    border-radius: 50%;
-}
-
-
-/*styling footer/section after gallery*/
-
-.return_to_top  {
-    position: relative;
-    top: 125px;
-    text-align: center;
-}
-     
-.footer {
-    text-align: center;
-    position: relative;
-    top: 200px;
-    background-color: rgb(151, 151, 231);
-    opacity: .7;
-    padding: 2px;
-    color: white;
-            
-}
-
-.footer h1 {
-    font-size: 1.2rem;
-}
-
-
-@media (min-width: 1600px)  {
-
-
-.main_container {
-    position: relative !important;       /*can't adjust this without adding !important - any why doesn't the css "trickle down"?*/
-    top: 550px !important;
-    
-}
-
-.main_tagline   {
-    margin: 0 auto;
-        
-    }
-}
-
-/*
-@media (min-width: 1483px) {
-
-    .main_tagline   {
-        background-color: white;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin: 0 auto;
-        width: 45%;
-        opacity: .7;
-        position: relative;
-        top: -50px;
-    
-    }
-}*/
-
-
-@media (min-width: 1224px) {
-
-body {
-    background-color: ivory;
-}
-
-/*begin navbar*/
-.navbar {
-    margin: 0 auto;
-    position: relative;
-    left: 25px;  /*won't move over when I chage to 50px*/
-   
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-}
-
-.nav-item {
-    padding: 2px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 1.3rem !important;
-        
-}
-
-/*end navbar*/
-
-
-.logo_large {
-    max-width: 100%;
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 50px;
-    opacity: .8;
-}
-
-.logo_mobile {
-    display: none;
-}
-
-/*begin styling of opening tagline*/
-
-.main_container {
-    position: relative !important;
-    top: 450px !important;
-    
-}
-
-.main_tagline   {
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    
-}
-
-
-.see_a_design {
-    font-family: 'Satisfy', cursive;
-    
-}
-
-.see_a_design h1 {
-    font-size: 4rem !important;
-
-}
-
-.see_a_design_line {
-    max-width: 50%;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-
-.each_cake {
-    font-family: 'Ledger', serif;
-    margin-top: 25px;
-}
-
-.each_cake h1 {
-    font-size: 2rem !important;
-}
-
-.click_here {
-    font-family: 'Ledger', serif;
-    margin-top: 25px;
-}
-
-.click_here h1 {
-    font-size: 1.5rem !important;
-
-}
-
-
-/*.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 100%;
-    
-}*/
-
-
-.row {
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-.col-sm-3  {
-   position: relative;
-   left: 50px !important;
-   margin-top: 75px;
-   
-       
-}
-
-.col-sm-4  {
-    position: relative;
-    left: 125px !important;
-    
-        
- }
-
-.category {
-    text-align: center;
-    padding-top: 75px;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 30px;
-}
-
-.category h1 {
-    font-size: 3rem !important;
-    opacity: .8;
-    text-shadow: 1px 1px 2px grey;
-}
-
-#any {
-    margin-top: 60px;
-}
-
-#school {
-    margin-top: 60px;
-}
-
-#cupcakes {
-    margin-top: 60px;
-}
-
-#birthdays {
-    margin-top: 60px;
-}
-
-#bar {
-    margin-top: 60px;
-}
-
-#weddings {
-    margin-top: 60px;
-}
-
-.card {
-    width: 18rem;
-    margin-top: 25px;
-    display: inline-block;
-    
-}
-
-/*styling individual cards*/
-
-.card-title {
-    font-size: 1.1rem;
-        
-}
-
-.card-title  h5{
-    font-family: 'Ledger', serif;
-        
-}
-
-.card-body {
-    font-family: 'Ledger', serif;
-    text-align: center;
-    font-style: italic;
-
-}
-/*end of styling individual cards*/
-
-
-.card-img-top {
-        transition: transform .4s; /* Animation */
-        /*background-color: ivory;*/
-    }
-    
-    .card-img-top:hover {
-        transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }        
-
-/*styling individual images*/
-
-#three_tier_flower {
-    max-width: 85%;
-    margin-left: 15px;
-}
-
-#sunflowers {
-    margin-left: 35px;
-    
-}
-
-#two_tier_anniv {
-    margin-left: 35px;
-    
-}
-
-#three_tier {
-    margin-left: 35px;
-    
-}
-
-#four-tier {
-    margin-left: -10px;
-    
-}
-
-#wedding {
-    /*margin-top: 50px;*/
-}
-
-#sunny_cupcakes {
-    border-radius: 50%;
-    margin-left: 30px;
-}
-
-#plated_cupcakes {
-    border-radius: 50%;
-    margin-left: 30px;
-}
-
-#multi_cupcakes {
-    border-radius: 50%;
-    margin-left: 30px;
-    width: 100%;
-}
-
-/*styling footer/section after gallery*/
-
-.return_to_top  {
-    position: relative;
-    top: 125px;
-    text-align: center;
-}
-     
-.footer {
-    text-align: center;
-    position: relative;
-    top: 200px;
-    background-color: rgb(151, 151, 231);
-    opacity: .7;
-    padding: 2px;
-    color: white;
-            
-}
-
-.footer h1 {
-    font-size: 1.2rem;
-}
-
-/*end styling after footer/section after gallery*/
-}
 
     
-@media (min-width: 1024px) {   
-
     body {
+        max-width: 2000px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
         background-color: rgb(250, 250, 244);
     }
+        /*begin navbar*
+        .navbar {
+            width: 100%;
+            margin: 0 auto;
+                   
+        }
+        
+        .nav-item {
+            padding: 2px;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 1.2rem;
+                
+        }
+        
+        .navbar-nav {
+            margin: 0 auto;
+            
+        } 
+        
+        .navbar li {
+            padding-right: 25px;
+        }
+        
+        .bg-primary  {
+            background-color: ivory !important;
+        }
+        /*end navbar*/
+        
+        .cover_image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .logo_large {
+            display: none;
+        }
+    
+        .logo_mobile {
+            display: inline;
+            max-width: 100%;
+            width: 100%;
+        }
+        
+        /*begin styling of opening tagline*/
+        
+        .main_tagline {
+            text-align: center;
+            
+        }
+        
+        .see_a_design {
+            font-family: 'Satisfy', cursive;
+            
+        }
+        
+        .see_a_design h1 {
+            font-size: 2rem;
+        
+        }
+        
+        .see_a_design_line {
+            max-width: 50%;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+        
+        .each_cake {
+            font-family: 'Ledger', serif;
+            margin-top: 25px;
+        }
+        
+        .each_cake h1 {
+            font-size: 1.25rem;
+        }
+        
+        .click_here {
+            font-family: 'Ledger', serif;
+            margin-top: 25px;
+        }
+        
+        .click_here h1 {
+            font-size: 1rem;
+        
+        }
+        
+        .mobile_back_to_top {
+            position: relative;
+            top: 50px;
+            text-align: center;
+        }
+        /*.container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            max-width: 100%;
+            
+        }*/
+        
+        
+        .row {
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+        
+        /*.col-sm-3  {
+           position: relative;
+           left: -65px !important;
+                  
+        }*/
+        
+        .category {
+            text-align: center;
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            margin-bottom: 0px;
+        }
+        
+        .category h1 {
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 2px grey;
+        }
+        
+        .card {
+            width: 16rem;
+            margin-top: 45px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        
+        /*styling individual cards*/
+        .card-title  h5{
+            font-family: 'Ledger', serif;
+        
+        }
+        
+        .card-body {
+            font-family: 'Ledger', serif;
+            text-align: center;
+            font-style: italic;
+        
+        }
+        /*end of styling individual cards*/
+        
+        
+        .card-img-top {
+            
+        }
+        
+        
+        
+        /*styling individual images*/
+        
+        #wedding {
+            /*margin-top: 50px;*/
+        }
+        
+        #sunny_cupcakes {
+            border-radius: 50%;
+        }
+        
+        #plated_cupcakes {
+            border-radius: 50%;
+        }
+        
+        #multi_cupcakes {
+            border-radius: 50%;
+        }
+        
+        
+        /*styling footer/section after gallery*/
+        
+        .return_to_top  {
+            position: relative;
+            top: 125px;
+            text-align: center;
+        }
+             
+        .footer {
+            text-align: center;
+            position: relative;
+            top: 200px;
+            background-color: rgb(151, 151, 231);
+            opacity: .7;
+            padding: 2px;
+            color: white;
+                    
+        }
+        
+        .footer h1 {
+            font-size: 1.2rem;
+        }
+    
+   
+    @media (min-width: 1200px)  {
+
+body {
+    background-color: rgb(250, 250, 244);
+}
     
     /*begin navbar
 .bg-primary  {
@@ -583,291 +222,254 @@ body {
     font-size: 2rem;
 }*/
 
-.navbar {    
-    margin: 0 auto;
-    position: relative;
-    left: 50px;        
+   
+.cover_image {
+    position: relative !important;
+    top: 25px !important;
 }
-    
-.nav-item {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 1.2rem !important;        
-}    
-
-.navbar-brand {
-    font-size: 1.3rem;
-}
-    
-    /*end navbar*/
             
-    .logo_large{
-        max-width: 100%;
-        width: 50%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 50px;
-        left: -25px;
-        opacity: .9;
-    }
+.logo_large{
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+    left: -25px;
+    opacity: .9;
+}
 
-    .logo_mobile {
-        display: none !important;
-    }
-    
-    .main_container {
-        
-    }
-    /*begin styling of opening tagline*/
-    
-    .main_container {
-        position: relative !important;
-        top: 400px !important;
-        
-    }
-    
-    .see_a_design {
-        font-family: 'Satisfy', cursive;
-        
-    }
-    
-    .see_a_design h1 {
-        font-size: 3rem !important;
-    
-    }
-    
-    .see_a_design_line {
-        max-width: 50%;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
-    
-    .each_cake {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .each_cake h1 {
-        font-size: 1.5rem !important;
-    }
-    
-    .click_here {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .click_here h1 {
-        font-size: 1.25rem !important;
-    
-    }
-    
-    
-    /*.container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width: 100%;
-        
-    }*/
-    
-    
-    .row {
-        margin-left: 10px;
-        margin-top: 0px;
-    }
-    
-    /*.col-sm-3  {
-       position: relative;
-       left: -65px !important;
-              
-    }*/
-    
-    .category {
-        text-align: center;
-        padding-top: 75px;
-        font-family: 'Dancing Script', cursive;
-        margin-bottom: 0px;
-    }
-    
-    .category h1 {
-        font-size: 3.5rem;
-    }
-    
-    .card {
-        width: 14rem;
-        margin-top: 25px;
-        display: inline-block;
-    }
-    
-    /*styling individual cards*/
-    .card-title  h5{
-        font-family: 'Ledger', serif;
-    
-    }
-    
-    .card-body {
-        font-family: 'Ledger', serif;
-        text-align: center;
-        font-style: italic;
-    
-    }
-    /*end of styling individual cards*/
-    
-    
-    .card-img-top {
-        
-    }
-    
-    
-    
-    /*styling individual images*/
-    
-    #three_tier_flower {
-        width: 90%;
-    }
-    
-    #sunny_cupcakes {
-        border-radius: 50%;
-        width: 70%;
-    }
-    
-    #plated_cupcakes {
-        border-radius: 50%;
-        width: 70%;
-    }
-    
-    #multi_cupcakes {
-        border-radius: 50%;
-        width: 70%;
-    }
-    
-    #two_tier_anniv {
-        width: 70%;
+.logo_mobile {
+    display: none !important;
+}
 
-    }
 
-    #sunflowers {
-        width: 70%;
+/*begin styling of opening tagline*/
 
-    }
-
-    #three_tier {
-        width: 70%;
-
-    }
-
-    #four_tier {
-
-    }
-
-    #one_hundred{
-        width: 80%;
-
-    }
-
-    #chagiga {
-        width: 80%;
-
-    }
-
-    #kindergarten1 {
-        width: 80%;
-
-    }
-
-    #kindergarten2 {
-        width: 80%;
-
-    }
+.main_container {
+    position: relative !important;
+    top: 400px !important;
     
-    #blue_flowers {
-        width: 90%;
-    }
+}
 
-    /*styling footer/section after gallery*/
+.see_a_design {
+    font-family: 'Satisfy', cursive;
     
-    .return_to_top  {
-        position: relative;
-        top: 125px;
-        text-align: center;
-    }
-         
-    .footer {
-        text-align: center;
-        position: relative;
-        top: 200px;
-        background-color: rgb(151, 151, 231);
-        opacity: .7;
-        padding: 2px;
-        color: white;
-                
-    }
+}
+
+.see_a_design h1 {
+    font-size: 3rem !important;
+
+}
+
+.see_a_design_line {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.each_cake {
+    font-family: 'Ledger', serif;
+    margin-top: 25px;
+}
+
+.each_cake h1 {
+    font-size: 1.5rem !important;
+}
+
+.click_here {
+    font-family: 'Ledger', serif;
+    margin-top: 25px;
+}
+
+.click_here h1 {
+    font-size: 1.25rem !important;
+
+}
+
+
+/*.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
     
-    .footer h1 {
-        font-size: 1.2rem;
-    }
+}*/
+
+
+.row {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+/*.col-sm-3  {
+   position: relative;
+   left: -65px !important;
+          
+}*/
+
+.category {
+    text-align: center;
+    padding-top: 75px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0px;
+}
+
+.category h1 {
+    font-size: 3.5rem;
+}
+
+.card {
+    width: 14rem;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+/*styling individual cards*/
+.card-title  h5{
+    font-family: 'Ledger', serif;
+
+}
+
+.card-body {
+    font-family: 'Ledger', serif;
+    text-align: center;
+    font-style: italic;
+
+}
+/*end of styling individual cards*/
+
+
+.card-img-top {
+    
+}
+
+
+
+/*styling individual images*/
+
+#three_tier_flower {
+    width: 90%;
+}
+
+#sunny_cupcakes {
+    border-radius: 50%;
+    width: 70%;
+}
+
+#plated_cupcakes {
+    border-radius: 50%;
+    width: 70%;
+}
+
+#multi_cupcakes {
+    border-radius: 50%;
+    width: 70%;
+}
+
+#two_tier_anniv {
+    width: 70%;
+
+}
+
+#sunflowers {
+    width: 70%;
+
+}
+
+#three_tier {
+    width: 70%;
+
+}
+
+#four_tier {
+
+}
+
+#one_hundred{
+    width: 80%;
+
+}
+
+#chagiga {
+    width: 80%;
+
+}
+
+#kindergarten1 {
+    width: 80%;
+
+}
+
+#kindergarten2 {
+    width: 80%;
+
+}
+
+#blue_flowers {
+    width: 90%;
+}
+
+/*styling footer/section after gallery*/
+
+.return_to_top  {
+    position: relative;
+    top: 125px;
+    text-align: center;
+}
+     
+.footer {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    background-color: rgb(151, 151, 231);
+    opacity: .7;
+    padding: 2px;
+    color: white;
+            
+}
+
+.footer h1 {
+    font-size: 1.2rem;
 
 }  
 
-/*for ipad*/
-@media (min-width:768px) { 
-
+    @media (min-width: 768px)  {
+        
     body {
         background-color: ivory;
     }
-
-    .navbar {    
-        margin: 0 auto;
+     
+    .cover_image {
         position: relative;
-        left: -30px;        
+        top: -184.5px;
     }
-        
-    .nav-item {
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 1.2rem !important;        
-    }    
-    
-    .navbar-brand {
-        font-size: 1rem;
-    }
-      
-  /*begin navbar*
-    .navbar {
-        width: 768px;
-}
-    
-    .nav-item {
-        padding: 2px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 1rem;
-            
-    }
-    
-    .navbar-nav {
-        margin: 0 auto;        
-    } 
-            
-    /*end navbar*/
-    
+  
     .logo_large{
+        display: none !important;
         width: 60%;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: 33px;
+        top: 30px;
+        z-index: 1;
+        opacity: .8;
         
     }
     
     .logo_mobile {
-        display: none !important;
+        width: 31%;
+        position: relative;
+        left: 0px;
+        top: 0px; 
+        z-index: 1;
+        opacity: .8;
+        
     }
 
     .main_container {
@@ -1027,1024 +629,17 @@ body {
     
 }
 
-@media (min-width:414px) { 
-
-    
-    body {
-        background-color: rgb(250, 250, 244);
-    }
-    
-    /*begin navbar*
-
-    .bg-primary {
-        background-color: ivory !important;
-    }
-
-    .navbar {
-        width: 100%;
-        margin: 0 auto;
-        
-    }
-    
-    .nav-item {
-        padding: 2px;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 1.2rem;
-            
-    }
-    
-    .navbar-nav {
-        margin: 0 auto;
-        
-    } 
-    
-    .navbar li {
-        padding-right: 25px;
-    }
-    
-    /*end navbar*/
-    
-    .cover_image {
-        
-    }
-    
-    .logo_large {
-        display: none;
-    }
-
-    .logo_mobile {
-        max-width: 100%;
-        width: 100%;
-        position: relative;
-        top: -75px;
-        
-    }
-    
-    /*begin styling of opening tagline*/
-    
-    .main_tagline {
-        text-align: center;
-        
-    }
-    
-    .see_a_design {
-        font-family: 'Satisfy', cursive;
-        
-    }
-    
-    .see_a_design h1 {
-        font-size: 2.5rem;
-    
-    }
-    
-    .see_a_design_line {
-        max-width: 50%;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
-    
-    .each_cake {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .each_cake h1 {
-        font-size: 1.25rem;
-    }
-    
-    .click_here {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .click_here h1 {
-        font-size: 1rem;
-    
-    }
-    
-    .mobile_back_to_top {
-        position: relative;
-        top: 50px;
-        text-align: center;
-    }
-    /*.container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width: 100%;
-        
-    }*/
-    
-    
-    .row {
-        margin-left: 10px;
-        margin-top: 0px;
-    }
-    
-    /*.col-sm-3  {
-       position: relative;
-       left: -65px !important;
-              
-    }*/
-    
-    .category {
-        text-align: center;
-        padding-top: 75px;
-        font-family: 'Dancing Script', cursive;
-        margin-bottom: 0px;
-    }
-    
-    .category h1 {
-        font-size: 3rem;
-        text-shadow: 1px 1px 2px grey;
-    }
-    
-    .card {
-        width: 18rem;
-        margin-top: 25px;
-        display: inline-block;
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-    
-    /*styling individual cards*/
-    .card-title  h5{
-        font-family: 'Ledger', serif;
-    
-    }
-    
-    .card-body {
-        font-family: 'Ledger', serif;
-        text-align: center;
-        font-style: italic;
-    
-    }
-    /*end of styling individual cards*/
-    
-    
-    .card-img-top {
-        
-    }   
-    
-    /*styling individual images*/
-    
-    #wedding {
-        /*margin-top: 50px;*/
-    }
-    
-    #sunny_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #plated_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #multi_cupcakes {
-        border-radius: 50%;
-    }
-    
-    
-    /*styling footer/section after gallery*/
-    
-    .return_to_top  {
-        position: relative;
-        top: 125px;
-        text-align: center;
-    }
-         
-    .footer {
-        text-align: center;
-        position: relative;
-        top: 200px;
-        background-color: rgb(151, 151, 231);
-        opacity: .7;
-        padding: 2px;
-        color: white;
-                
-    }
-    
-    .footer h1 {
-        font-size: 1.2rem;
-    }
-
-}  
-
-@media (min-width:411px) { 
-
-    
-    body {
-        background-color: rgb(250, 250, 244);
-    }
-    
-    /*begin navbar*
-
-    .bg-primary {
-        background-color: ivory !important;
-    }
-
-    .navbar {
-        width: 100%;
-        margin: 0 auto;
-        
-    }
-    
-    .nav-item {
-        padding: 2px;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 1.2rem;
-            
-    }
-    
-    .navbar-nav {
-        margin: 0 auto;
-        
-    } 
-    
-    .navbar li {
-        padding-right: 25px !important;
-    }
-    
-    /*end navbar*/
-    
-    .cover_image {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .logo_large {
-        display: none;
-    }
-
-    .logo_mobile {
-        max-width: 100%;
-        width: 100%;
-        position: relative;
-        top: -75px;
-    }
-    
-    /*begin styling of opening tagline*/
-    
-    .main_tagline {
-        text-align: center;
-        
-    }
-    
-    .see_a_design {
-        font-family: 'Satisfy', cursive;
-        
-    }
-    
-    .see_a_design h1 {
-        font-size: 2.5rem;
-    
-    }
-    
-    .see_a_design_line {
-        max-width: 50%;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
-    
-    .each_cake {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .each_cake h1 {
-        font-size: 1.25rem;
-    }
-    
-    .click_here {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .click_here h1 {
-        font-size: 1rem;
-    
-    }
-    
-    .mobile_back_to_top {
-        position: relative;
-        top: 50px;
-        text-align: center;
-    }
-    /*.container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width: 100%;
-        
-    }*/
-    
-    
-    .row {
-        margin-left: 10px;
-        margin-top: 0px;
-    }
-    
-    /*.col-sm-3  {
-       position: relative;
-       left: -65px !important;
-              
-    }*/
-    
-    .category {
-        text-align: center;
-        padding-top: 75px;
-        font-family: 'Dancing Script', cursive;
-        margin-bottom: 0px;
-    }
-    
-    .category h1 {
-        font-size: 3rem;
-        text-shadow: 1px 1px 2px grey;
-    }
-    
-    .card {
-        width: 18rem;
-        margin-top: 25px;
-        display: inline-block;
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-    
-    /*styling individual cards*/
-    .card-title  h5{
-        font-family: 'Ledger', serif;
-    
-    }
-    
-    .card-body {
-        font-family: 'Ledger', serif;
-        text-align: center;
-        font-style: italic;
-    
-    }
-    /*end of styling individual cards*/
-    
-    
-    .card-img-top {
-        
-    }
-    
-    
-    
-    /*styling individual images*/
-    
-    #wedding {
-        /*margin-top: 50px;*/
-    }
-    
-    #sunny_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #plated_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #multi_cupcakes {
-        border-radius: 50%;
-    }
-    
-    
-    /*styling footer/section after gallery*/
-    
-    .return_to_top  {
-        position: relative;
-        top: 125px;
-        text-align: center;
-    }
-         
-    .footer {
-        text-align: center;
-        position: relative;
-        top: 200px;
-        background-color: rgb(151, 151, 231);
-        opacity: .7;
-        padding: 2px;
-        color: white;
-                
-    }
-    
-    .footer h1 {
-        font-size: 1.2rem;
-    }
-
-}  
 
 
-@media (min-width: 375px) {   
-
-    body {
-        background-color: rgb(250, 250, 244);
-    }
-    
-    /*begin navbar*
-    .navbar {
-        max-width: 100%;
-        width: 100%;
-        margin: 0 auto;
-        background-color: ivory !important;
-        
-    }
-    
-    .nav-item {
-        padding: 2px;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 1.2rem;
-            
-    }
-    
-    .navbar-nav {
-        margin: 0 auto;
-        
-    } 
-    
-    .navbar li {
-        padding-right: 25px;
-    }
-    
-    /*end navbar*/
-    
-    .cover_image {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .logo_large {
-        display: none;
-    }
-
-    .logo_mobile {
-        max-width: 100%;
-        width: 100%;
-        position: relative;
-        top: -75px;
-    }
-    
-    /*begin styling of opening tagline*/
-    
-    .main_tagline {
-        text-align: center;
-        
-    }
-    
-    .see_a_design {
-        font-family: 'Satisfy', cursive;
-        
-    }
-    
-    .see_a_design h1 {
-        font-size: 2rem;
-    
-    }
-    
-    .see_a_design_line {
-        max-width: 50%;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
-    
-    .each_cake {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .each_cake h1 {
-        font-size: 1.25rem;
-    }
-    
-    .click_here {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .click_here h1 {
-        font-size: 1rem;
-    
-    }
-    
-    .mobile_back_to_top {
-        position: relative;
-        top: 50px;
-        text-align: center;
-    }
-    /*.container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width: 100%;
-        
-    }*/
-    
-    
-    .row {
-        margin-left: 10px;
-        margin-top: 0px;
-    }
-    
-    /*.col-sm-3  {
-       position: relative;
-       left: -65px !important;
-              
-    }*/
-    
-    .category {
-        text-align: center;
-        padding-top: 75px;
-        font-family: 'Dancing Script', cursive;
-        margin-bottom: 0px;
-    }
-    
-    .category h1 {
-        font-size: 2.5rem;
-        text-shadow: 1px 1px 2px grey;
-    }
-    
-    .card {
-        width: 16rem;
-        margin-top: 40px;
-        margin-left: 43px;
-        display: inline-block;
-    }
-    
-    /*styling individual cards*/
-    .card-title  h5{
-        font-family: 'Ledger', serif;
-    
-    }
-    
-    .card-body {
-        font-family: 'Ledger', serif;
-        text-align: center;
-        font-style: italic;
-    
-    }
-    /*end of styling individual cards*/
-    
-    
-    .card-img-top {
-        
-    }
-    
-    
-    
-    /*styling individual images*/
-    
-    #wedding {
-        /*margin-top: 50px;*/
-    }
-    
-    #sunny_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #plated_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #multi_cupcakes {
-        border-radius: 50%;
-    }
-    
-    
-    /*styling footer/section after gallery*/
-    
-    .return_to_top  {
-        position: relative;
-        top: 125px;
-        text-align: center;
-    }
-         
-    .footer {
-        text-align: center;
-        position: relative;
-        top: 200px;
-        background-color: rgb(151, 151, 231);
-        opacity: .7;
-        padding: 2px;
-        color: white;
-                
-    }
-    
-    .footer h1 {
-        font-size: 1.2rem;
-    }
-
-}  
 
 
-@media (min-width: 360px) {   
-
-    body {
-        background-color: rgb(250, 250, 244);
-    }
-    
-    /*begin navbar*
-    .navbar {
-        max-width: 100%;
-        width: 100%;
-        margin: 0 auto;
-        background-color: ivory !important;
-        
-    }
-    
-    .nav-item {
-        padding: 2px;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 1.2rem;
-            
-    }
-    
-    .navbar-nav {
-        margin: 0 auto;
-        
-    } 
-    
-    .navbar li {
-        padding-right: 25px;
-    }
-    
-    /*end navbar*/
-    
-   .cover_image {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .logo_large {
-        display: none;
-    }
-
-    .logo_mobile {
-        max-width: 100%;
-        width: 100%;
-        position: relative;
-        top: -75px;
-    }
-    
-    /*begin styling of opening tagline*/
-    
-    .main_tagline {
-        text-align: center;
-        
-    }
-    
-    .see_a_design {
-        font-family: 'Satisfy', cursive;
-        
-    }
-    
-    .see_a_design h1 {
-        font-size: 2rem;
-    
-    }
-    
-    .see_a_design_line {
-        max-width: 50%;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
-    
-    .each_cake {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .each_cake h1 {
-        font-size: 1.1rem;
-    }
-    
-    .click_here {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .click_here h1 {
-        font-size: 1rem;
-    
-    }
-    
-    .mobile_back_to_top {
-        position: relative;
-        top: 50px;
-        text-align: center;
-    }
-    /*.container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width: 100%;
-        
-    }*/
-    
-    
-    .row {
-        margin-left: 10px;
-        margin-top: 0px;
-    }
-    
-    /*.col-sm-3  {
-       position: relative;
-       left: -65px !important;
-              
-    }*/
-    
-    .category {
-        text-align: center;
-        padding-top: 75px;
-        font-family: 'Dancing Script', cursive;
-        margin-bottom: 0px;
-    }
-    
-    .category h1 {
-        font-size: 2.5rem;
-        text-shadow: 1px 1px 2px grey;
-    }
-    
-    .card {
-        width: 18rem;
-        margin-top: 25px;
-        display: inline-block;
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-    
-    /*styling individual cards*/
-    .card-title  h5{
-        font-family: 'Ledger', serif;
-    
-    }
-    
-    .card-body {
-        font-family: 'Ledger', serif;
-        text-align: center;
-        font-style: italic;
-    
-    }
-    /*end of styling individual cards*/
-    
-    
-    .card-img-top {
-        
-    }
-    
-    
-    
-    /*styling individual images*/
-    
-    #wedding {
-        /*margin-top: 50px;*/
-    }
-    
-    #sunny_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #plated_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #multi_cupcakes {
-        border-radius: 50%;
-    }
-    
-    
-    /*styling footer/section after gallery*/
-    
-    .return_to_top  {
-        position: relative;
-        top: 125px;
-        text-align: center;
-    }
-         
-    .footer {
-        text-align: center;
-        position: relative;
-        top: 200px;
-        background-color: rgb(151, 151, 231);
-        opacity: .7;
-        padding: 2px;
-        color: white;
-                
-    }
-    
-    .footer h1 {
-        font-size: 1.2rem;
-    }
-
-}  
 
 
-@media (min-width: 320px) {  
 
-    body {
-        background-color: rgb(250, 250, 244);
-    }
-    
-    /*begin navbar*
-    .navbar {
-        width: 100%;
-        margin: 0 auto;
-               
-    }
-    
-    .nav-item {
-        padding: 2px;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 1.2rem;
-            
-    }
-    
-    .navbar-nav {
-        margin: 0 auto;
-        
-    } 
-    
-    .navbar li {
-        padding-right: 25px;
-    }
-    
-    .bg-primary  {
-        background-color: ivory !important;
-    }
-    /*end navbar*/
-    
-    .cover_image {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .logo_large {
-        display: none;
-    }
 
-    .logo_mobile {
-        display: inline;
-        max-width: 100%;
-        width: 100%;
-    }
-    
-    /*begin styling of opening tagline*/
-    
-    .main_tagline {
-        text-align: center;
-        
-    }
-    
-    .see_a_design {
-        font-family: 'Satisfy', cursive;
-        
-    }
-    
-    .see_a_design h1 {
-        font-size: 2rem;
-    
-    }
-    
-    .see_a_design_line {
-        max-width: 50%;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
-    
-    .each_cake {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .each_cake h1 {
-        font-size: 1.25rem;
-    }
-    
-    .click_here {
-        font-family: 'Ledger', serif;
-        margin-top: 25px;
-    }
-    
-    .click_here h1 {
-        font-size: 1rem;
-    
-    }
-    
-    .mobile_back_to_top {
-        position: relative;
-        top: 50px;
-        text-align: center;
-    }
-    /*.container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width: 100%;
-        
-    }*/
-    
-    
-    .row {
-        margin-left: 10px;
-        margin-top: 0px;
-    }
-    
-    /*.col-sm-3  {
-       position: relative;
-       left: -65px !important;
-              
-    }*/
-    
-    .category {
-        text-align: center;
-        padding-top: 75px;
-        font-family: 'Dancing Script', cursive;
-        margin-bottom: 0px;
-    }
-    
-    .category h1 {
-        font-size: 2.5rem;
-        text-shadow: 1px 1px 2px grey;
-    }
-    
-    .card {
-        width: 16rem;
-        margin-top: 45px;
-        margin-left: 20px;
-        display: inline-block;
-    }
-    
-    /*styling individual cards*/
-    .card-title  h5{
-        font-family: 'Ledger', serif;
-    
-    }
-    
-    .card-body {
-        font-family: 'Ledger', serif;
-        text-align: center;
-        font-style: italic;
-    
-    }
-    /*end of styling individual cards*/
-    
-    
-    .card-img-top {
-        
-    }
-    
-    
-    
-    /*styling individual images*/
-    
-    #wedding {
-        /*margin-top: 50px;*/
-    }
-    
-    #sunny_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #plated_cupcakes {
-        border-radius: 50%;
-    }
-    
-    #multi_cupcakes {
-        border-radius: 50%;
-    }
-    
-    
-    /*styling footer/section after gallery*/
-    
-    .return_to_top  {
-        position: relative;
-        top: 125px;
-        text-align: center;
-    }
-         
-    .footer {
-        text-align: center;
-        position: relative;
-        top: 200px;
-        background-color: rgb(151, 151, 231);
-        opacity: .7;
-        padding: 2px;
-        color: white;
-                
-    }
-    
-    .footer h1 {
-        font-size: 1.2rem;
-    }
 
-}  
+
+
+
+
+
