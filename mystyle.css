@@ -1,7 +1,10 @@
 	/*default size: mobile 320px*/
-		body {
-		background-color: ivory !important;
+	body {
 		max-width: 1400px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		background-color: rgb(250, 250, 244);
 	}
 		
 		h1 {
@@ -22,39 +25,39 @@
 		top: -25px;
 	}
 	
-		.main_content {
-			position: relative;
-			top: -25px;
-		}
+	.main_content {
+		position: relative;
+		top: -25px;
+	}
 		
 		
-		.cover_image {
-			position: relative;
-			top: 0px;
-			max-width: 100%;
-			height: auto;
-		}
+	.cover_image {
+		position: relative;
+		top: 0px;
+		max-width: 100%;
+		height: auto;
+	}
 	
-		.logo_mobile {
-				max-width: 100%;
-				width: 100%;
-				height: auto;
-				display: block;
+	.logo_mobile {
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+		display: block;
 				/*margin-left: auto;
 				margin-right: auto;*/
-		}
+	}
 	
-		.logo_large {
-			display: none;
-		}
+	.logo_large {
+		display: none;
+	}
 		
 	
-		.line1 {
-			position: relative;
-			top: 75px;
-			max-width: 50%;
-			margin: 0 auto;
-		}
+	.line1 {
+		position: relative;
+		top: 75px;
+		max-width: 50%;
+		margin: 0 auto;
+	}
 		
 		.line4 {
 			display: none;
@@ -72,234 +75,7 @@
 			position: relative;
 			top: -65px;
 		}
-		
-		.each_design {
-			font-family: 'Ledger', serif;
-			font-style: italic;
-			background-color: ivory;
-			margin-top: 45px;
-			text-align: center;
 				
-		}
-		
-		.each_design h1 {
-			font-size: 4rem;
-			line-height: 2.0;
-			margin: 0 auto;
-			font-family: 'Parisienne', cursive;
-		}
-	
-		.each_design h2 {
-			font-size: 2rem;
-			line-height: 2.0;
-			margin: 0 auto;
-		}
-		
-		.custom {
-			font-family: 'Parisienne', cursive;
-			font-size: 2.5rem;
-			color:black;
-			text-align:center;
-			text-shadow: 1px 1px gray;
-			position: relative;
-			top: 90px;
-			
-		}
-		
-		.deliciously {
-			font-family: 'Parisienne', cursive;
-			font-size: 2.5rem;
-			color:black;
-			text-align:center;
-			text-shadow: 1px 1px gray;
-			position: relative;
-			top: 60px;
-		}
-/*controls slides and all inner content*/
-		.carousel-inner {
-			height: 400px;
-		}		
-		
-		.carousel {
-			margin-top: 50px;
-		}
-		
-		.carousel-caption h1  {
-			font-family: 'Parisienne', cursive;
-			font-size: 3rem;
-		}
-		
-		.carousel-caption-bonvoyage {
-		
-		position: absolute;
-		top: 20px;
-		left: 50px;
-		max-width:100%;
-		z-index:1;
-		color:black;
-		text-align:center;
-		font-family: 'Parisienne', cursive;
-		text-shadow: 1px 1px gray;
-		bottom:auto;
-		}
-		
-		.carousel-caption-bonvoyage h1{
-			display: none;
-			position: absolute;
-			top: -5px;
-			left: -25px;
-			font-size: 3rem;
-			background: rgba(0, 0, 0, 0.2);
-			color: black;
-			border-radius: 25px;
-			padding: 5px;
-			
-		 }
-		
-		 .carousel-caption-bonvoyage h3{
-			position: relative;
-			top: 0px;
-			left: -15px;
-			font-size: 1.8rem;
-			font-family: 'Ledger', serif;
-			line-height: 2rem;
-			background: rgba(119, 5, 5, 0.4);
-			color: white;
-			padding: 12px;
-			border-radius: 25px;
-			
-		 }
-		
-		 
-		 .carousel-caption-sunflower {
-		position: absolute;
-		top: 20px;
-		left: 50px;
-		max-width:100%;
-		z-index:1;
-		color:black;
-		font-style: bold;
-		text-align:center;
-		text-shadow: 1px 1px gray;
-		bottom:auto;
-		}
-		
-		.carousel-caption-sunflower h1 {
-		display: none;
-		font-size: 2rem;
-		font-family: 'Parisienne', cursive;
-		position: relative;
-		top: 10px;
-		left: -23px;
-		background: rgba(255, 255, 255, 0.5);
-		color: black;
-		border-radius: 25px;
-		padding: 5px;
-		
-		}
-		
-		
-		.carousel-caption-sunflower h3{
-		position: relative;
-		top: 180px;
-		left: -25px;
-		color:white;
-		text-align:center;
-		text-shadow: 1px 1px gray;
-		bottom:auto;
-		font-family: 'Ledger', serif;
-		font-size: 1.5rem;
-		line-height: 2.8rem;
-		background: rgba(70, 151, 59, 0.5);
-		border-radius: 25px;
-		padding: 5px;
-		}
-		
-		@media (min-width: 360px)   {
-		.carousel-caption-sunflower h3 {
-			position: relative;
-			top: 200px;
-		}
-		}
-
- 		.carousel-caption-cupcakes {
-		position: absolute;
-		top: 10px;
-		left: 50px;
-		max-width:100%;
-		z-index:1;
-		color:black;
-		font-style: bold;
-		text-align:center;
-		text-shadow: 1px 1px gray;
-		bottom:auto;
-		}
-		
-		.carousel-caption-cupcakes h1 {
-		font-size: 1.7rem;
-		font-family: 'Ledger', serif;
-		position: relative;
-		top: 0px;
-		left: -26px;
-		
-		}
-		
-		.carousel-caption-cupcakes h3{
-		position: relative;
-		top: 200px;
-		left: -25px;
-		text-shadow: 1px 1px gray;
-		color:black;
-		text-align:center;
-		bottom:auto;
-		font-family: 'Ledger', serif;
-		font-size: 2rem;
-		background: rgba(0, 191, 255, 0.7); 
-		padding: 10px;
-		border-radius: 25px;
-		
-		}
-		
-		 #sunflowers_slide {
-			 max-width: 100%;
-			 margin: 0 auto; 
-			 /*height: 375px;*/
-			 position: relative;
-			 top: 30px;			 
-		}
-
-		@media (min-width: 360px)   {
-		#sunflowers_slide {
-				position: relative;
-				top: 30px;
-			}
-			}
-		
-		#cupcakes_slide {
-			/*height: 375px;*/
-			position: relative;
-			top: 45px;
-		}
-		
-		#bon_voyage_slide {
-			/*height: 375px;*/
-			position: relative;
-			top: 70px;
-			
-		}
-		
-		 #cupcakes_slide2 {
-			 display: none;
-		 }
-		
-		 #cupcakes_slide3 {
-			 display: none;
-		 }
-		
-		 #fire_cake_slide {
-			 display: none;
-		 }
-		
 		 
 		 .btn {
 			
@@ -344,7 +120,7 @@
 		position: relative;
 		top: 100px;
 		}
-		
+	
 
 
 
@@ -352,76 +128,40 @@
 
 	@media (min-width: 1200px) {	
 	/*begin navbar*/
-  .container {
-		width: 1224px !important;
-	}
-
-	.navbar {
-			width: 1700px;
-			height: 100px;
-			position: relative;
-			left: 300px;						
-	}
-
-	.navbar-brand  {
-			font-size: 3rem;
-		}
-
-	.nav-item {
-			font-size: 2.3rem;
-								
-	}
-
-	.nav-item a:hover {
-			background-color: rgb(167, 219, 240) !important;
-			text: white !important;
-	}
 	
-	.navbar-nav {
-			margin: 0 auto;
-			width: 100% !important;
-					
-	} 
-	
-	.navbar li {
-			padding-right: 25px;
-			padding-left: 25px;	
-			margin-right: 25px;
-			margin-left: 25px;	
-			
-	}
+.container {
+    position: relative;
+    left: 50px;
+}
 
-	.bg-primary  {
-		background-color: rgb(228, 206, 228)!important;
-	}
+.navbar li {
+    padding: 10px;
+}
+
+.nav-item a:hover {
+    background-color: rgb(226, 235, 177);
+}
 	
-   .navbar-toggler {
-		 font-size: 3.00rem;
-	 }
+.bg-primary  {
+	background-color: rgb(228, 206, 228)!important;
+}
+
+.navbar-toggler {
+	 font-size: 3.00rem;
+ }
 
 	/*end navbar*/
+.logo-joined {
+		max-width: 100%;
+		width: 100%;
+}
 
-	.logo_large {
-		position: absolute;
-		top: 15px !important;
-		left: 400px;
-		z-index: 1;
-		width: 50%;
-		opacity: .9;
-	}
-
-	.logo_mobile {
+	.logo-mobile {
 		display: none;
 	}
 	
-	.cover_image  {
-		max-width: 100%;
-		width: 100%;
-		height: auto;
-		position: relative !important;
-		top: -190px !important;
-		left: 420px;
-		
+	.cover-image  {
+		display: none;
 	}
 	
 	.each_design {
@@ -1044,4 +784,3 @@
 			}
 
 
-/*should i add a media query for 1824px?*/
